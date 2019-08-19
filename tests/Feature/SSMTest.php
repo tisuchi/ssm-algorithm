@@ -3,19 +3,18 @@
 namespace Tests\Feature;
 
 use Tests\TestCase;
+use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class ExampleTest extends TestCase
+class SSMTest extends TestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
-    public function testBasicTest()
+    /** @test */
+    public function a_visitor_is_able_to_see_the_home_page()
     {
         $response = $this->get('/');
 
         $response->assertStatus(200);
     }
+
+
 }
