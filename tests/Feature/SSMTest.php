@@ -16,5 +16,24 @@ class SSMTest extends TestCase
         $response->assertStatus(200);
     }
 
+    /** @test */
+    public function a_tester_should_able_to_see_create_message_page()
+    {
+        $response = $this->get('/add');
 
+        $response->assertStatus(200);
+        $response->assertViewIs('create');
+    }
+
+    /** @test */
+    public function a_tester_should_able_to_submit_a_message()
+    {
+        $data = [
+            'message' => 'Hello world'
+        ];
+
+        $response = $this->post('/add', $data);
+
+        $response->assertStatus(200);
+    }
 }

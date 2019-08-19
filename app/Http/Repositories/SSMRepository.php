@@ -10,9 +10,15 @@ class SSMRepository
 
     public $getShouldReplaceWord = array();
 
-    public function index()
+    public $defaultMessage = "This is my mobile numebr zero 1 eight three 1 5 nine one 66";
+
+    public function index($message = null )
     {
-        return $this->doesContainStopword("I am fine with imo");
+        if ($message ){
+            return $this->doesContainStopword($message);
+        }
+
+        return $this->doesContainStopword($this->defaultMessage);
     }
 
     /**
