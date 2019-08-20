@@ -43,7 +43,10 @@ class SSMRepository
         $numbersInChinese        = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
         $numbersInEnglish        = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
         $numbersInMalay          = ['kosong', 'satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'lapan', 'sembilan'];
-        $emailFormat             = ['dot', '@', '[at]', 'gmail', 'yahoo', 'outlook', 'hotmail', 'yandex', 'email'];
+        $emailFormat             = [
+            'dot', '@', '[at]', 'gmail', 'yahoo', 'outlook', 'hotmail', 'yandex', 'email',
+            'zoho', 'mail', 'gmx', 'protonmail', 'aol', 'tutanota'
+        ];
         $socialMediaName         = [
             'facebook', 'fb', 'twitter', 'meetme', 'googleplus',
             'myspace', 'tagged', 'twoo', 'instagram', 'insta', 'likealittle',

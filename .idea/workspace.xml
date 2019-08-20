@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989c0750-7658-4586-ae97-0a2571758301" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/logs/listOfTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Repositories/SSMRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Repositories/SSMRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/MobileValidationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/MobileValidationTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/SocialMediaTest.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Repositories/SSMRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="594" column="4" selection-start-line="594" selection-start-column="4" selection-end-line="594" selection-end-column="4" />
+            <state relative-caret-position="1365">
+              <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -47,10 +50,12 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/SSMController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/PatternValidation1Test.php" />
         <option value="$PROJECT_DIR$/tests/Feature/SSMTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/MobileValidationTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/NumberValidationTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Repositories/SSMRepository.php" />
         <option value="$PROJECT_DIR$/tests/Feature/SocialMediaTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/MobileValidationTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Repositories/SSMRepository.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/EmailValidationTest.php" />
+        <option value="$PROJECT_DIR$/tests/logs/listOfTests.txt" />
       </list>
     </option>
   </component>
@@ -139,17 +144,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
     </include_path>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ssm-algorithm.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="51" />
     <option name="width" value="1272" />
@@ -228,13 +222,7 @@
               <item name="ssm-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Feature" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,12 +269,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566121975964</updated>
       <workItem from="1566121977917" duration="10281000" />
-      <workItem from="1566224856511" duration="4285000" />
+      <workItem from="1566224856511" duration="6362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14566000" />
+    <option name="totallyTimeSpent" value="16643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="51" width="1272" height="743" extended-state="0" />
@@ -417,31 +405,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/MobileValidationTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/NumberValidationTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Repositories/SSMRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="53" />
+        <state relative-caret-position="-1645">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/SocialMediaTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="594" column="4" selection-start-line="594" selection-start-column="4" selection-end-line="594" selection-end-column="4" />
+        <state relative-caret-position="275">
+          <caret line="585" column="17" lean-forward="true" selection-start-line="585" selection-start-column="17" selection-end-line="585" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/MobileValidationTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="140" column="4" lean-forward="true" selection-start-line="140" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/EmailValidationTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="219" column="51" lean-forward="true" selection-start-line="219" selection-start-column="51" selection-end-line="219" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/logs/listOfTests.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Repositories/SSMRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
         </state>
       </provider>
     </entry>

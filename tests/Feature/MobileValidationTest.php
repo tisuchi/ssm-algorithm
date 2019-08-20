@@ -125,4 +125,30 @@ class MobileValidationTest extends TestCase
         $response->assertSee(1);
     }
 
+    /** @test */
+    public function validate_mobile_number_in_chinese_language()
+    {
+        $data = [
+            "message" => "零 一 二 三"
+        ];
+
+        $response = $this->post('/add', $data);
+
+        $response->assertStatus(200);
+        $response->assertSee(1);
+    }
+
+    /** @test */
+    public function validate_mobile_number_in_malay_language()
+    {
+        $data = [
+            "message" => "kosong satu dua tiga empat is my mobile number."
+        ];
+
+        $response = $this->post('/add', $data);
+
+        $response->assertStatus(200);
+        $response->assertSee(1);
+    }
+
 }
