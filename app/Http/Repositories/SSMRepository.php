@@ -47,7 +47,7 @@ class SSMRepository
         $socialMediaName         = [
             'facebook', 'fb', 'twitter', 'meetme', 'googleplus',
             'myspace', 'tagged', 'twoo', 'instagram', 'insta', 'likealittle',
-            'snapchat', 'wechat', 'messanger', 'whatsapp', 'skype', 'e.mai.l', 'emai.l', 'em.ai.l', 'emai.l', 'e.m.i.l',
+            'snapchat', 'wechat', 'messanger', 'whatsapp', 'skype', 'e.mai.l', 'emai.l', 'em.ai.l', 'e.m.i.l',
             'viber', 'line', 'bbm', 'kik', 'qq', 'linne', 'ig', //ig = Instagram
             'li.ne', 'we.cht', 'wc', 'wheecht', 'sk.ype',
             'wchat', 'wcht', 'wct', 'weecht',
