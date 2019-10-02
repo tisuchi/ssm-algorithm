@@ -1,4 +1,4 @@
-# SSM Alorithm
+# SSM Algorithm
 
 The SSM Algorithm is a proposed algorithm to detect numbers between exchanging messages. 
 
